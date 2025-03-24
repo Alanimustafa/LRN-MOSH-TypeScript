@@ -1,11 +1,6 @@
 "use strict";
-console.log('Hello World!');
-var age = 30;
-console.log('I am ' + age + ' years old.');
-if (age >= 21) {
-    console.log('You are old enough to drink.');
-}
-else {
-    console.log('You are not old enough to drink.');
-}
+let array = [1, 2, 3, 4, 5];
+let user = [1, '3'];
+user.push("Mustafa");
+console.log(user);
 //# sourceMappingURL=index.js.map
