@@ -1,8 +1,8 @@
-console.log ('Hello World!');
-var age : number = 30;
-console.log ('I am '+ age +' years old.');
-if (age >= 21) { 
-    console.log ('You are old enough to drink.'); 
-} else { 
-    console.log ('You are not old enough to drink.');
-}
+let sales = 123_456_789;
+let course = 'TypeScript';
+let is_published = true;
+let level;
+
+function render (document: any) {
+    console.log(document);
+}  
