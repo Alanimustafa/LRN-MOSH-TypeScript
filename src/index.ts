@@ -1,8 +1,4 @@
-let sales = 123_456_789;
-let course = 'TypeScript';
-let is_published = true;
-let level;
-
-function render (document: any) {
-    console.log(document);
-}  
+let array = [1, 2, 3, 4, 5];
+let user = [1,'3'];
+user.push("Mustafa");
+console.log(user);
