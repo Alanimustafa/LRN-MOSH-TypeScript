@@ -1,6 +1,11 @@
+//Narrowing
 
-function kgTolb (weight: number) : number { 
-    return weight * 2.20462;
+function kgTolb (weight: number | string) : number { 
+    if (typeof weight === 'number')
+        return weight * 2.20462;
+    else  
+        return parseInt(weight) * 2.20462;
 }
 
 console.log(kgTolb(100)); // Output: 220.462
+console.log(kgTolb("100")); // Output:
